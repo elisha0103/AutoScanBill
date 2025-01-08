@@ -11,9 +11,9 @@ jobs:
       - name: Login
         uses: atlassian/gajira-login@v3
         env:
-          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
-          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
-          JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+          JIRA_BASE_URL: ${{ https://ppfriends-tf.atlassian.net }}
+          JIRA_API_TOKEN: ${{ ATATT3xFfGF0igoTr-1dLSfZWawy8f6NV7HuajTk8K1trAhmxfji0M7ILIXTt65UQtKb2Cno-jIgrHyPcLEqbgTI3e_gAxO8QmUSPoS_F3WpJBQVaK4s69JFdBwVvjfIjAqEWaupl_Wj3zyNCUuLePiI9dURWD2C_FPOzp96Ct8QxJevxbPggKg=6C0906A2 }}
+          JIRA_USER_EMAIL: ${{ elisha0103@ppfriends.co.kr }}
 
       - name: Checkout main code
         uses: actions/checkout@v4
